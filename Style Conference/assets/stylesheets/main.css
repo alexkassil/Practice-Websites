@@ -52,7 +52,7 @@ table {
 
 */
 
-*, *:before, *:after{
+*{
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 			box-sizing: border-box;
@@ -101,5 +101,26 @@ h1, h3, h4, h5, p {
 .hero {
 	padding: 22px 80px 66px 80px;
 }
+
+/*
+
+	Clearfix
+
+*/
+
+.group:before, .group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	clear: both;
+	*zoom: 1;
+}
+
 
 

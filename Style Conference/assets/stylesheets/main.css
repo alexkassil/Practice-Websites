@@ -177,3 +177,14 @@ h1, h3, h4, h5, p {
 	padding-right: 15px;
 }
 
+
+/*
+
+	Custom Styles
+
+*/
+
+body {
+	color: #888;
+	font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

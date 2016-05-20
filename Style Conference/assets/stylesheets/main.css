@@ -68,6 +68,24 @@ table {
 	padding-right: 30px;
 }
 
+.col-1-3 {
+	width: 33.33%;
+}
+
+.col-2-3 {
+	width: 66.66%;
+}
+
+.col-1-3, .col-2-3 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.grid, .col-1-3, .col-2-3 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 /*
 
 	Typography
@@ -76,6 +94,43 @@ table {
 
 h1, h3, h4, h5, p {
 	margin-bottom: 22px;
+}
+
+h1, h2, h3, h4 {
+	color: #648880;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 44px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 44px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	color: #a9b2b9;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+strong {
+	font-weight: 400;
+}
+
+cite, em {
+	font-style: italic;
 }
 
 /*
@@ -111,7 +166,7 @@ h1, h3, h4, h5, p {
 	font-size: 36px;
 }
 
-.hero h1 {
+.hero p {
 	font-size: 24px;
 }
 
@@ -148,6 +203,9 @@ h1, h3, h4, h5, p {
 	float: left;
 	font-size: 48px;
 	line-height: 44px;
+	font-weight: 100;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 }
 
 .tagline {
@@ -158,6 +216,8 @@ h1, h3, h4, h5, p {
 .primary-nav {
 	font-size: 14px;
 	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 }
 
 /*
@@ -178,30 +238,6 @@ h1, h3, h4, h5, p {
 	padding-top: 44px;
 }
 
-/*
-
-	Column
-
-*/
-
-.col-1-3 {
-	width: 33.33%;
-}
-
-.col-2-3 {
-	width: 66.66%;
-}
-
-.col-1-3, .col-2-3 {
-	display: inline-block;
-	vertical-align: top;
-}
-
-.grid, .col-1-3, .col-2-3 {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
 
 /*
 
@@ -211,48 +247,12 @@ h1, h3, h4, h5, p {
 
 body {
 	color: #888;
-	font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-h1, h2, h3, h4 {
-	color: #648880;
-}
-
-h1 {
-	font-size: 36px;
-	line-height: 44px;
-}
-
-h2 {
-	font-size: 24px;
-}
-
-h3 {
-	font-size: 21px;
-}
-
-h4 {
-	font-size: 18px;
-}
-
-h5 {
-	color: #a9b2b9;
-	font-size: 14px;
-	font-weight: 400;
-	text-transform: uppercase;
-}
-
-strong {
-	font-weight: 400;
-}
-
-cite, em {
-	font-style: italic;
+	font: 100 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
 
-	Link
+	Links
 
 */
 

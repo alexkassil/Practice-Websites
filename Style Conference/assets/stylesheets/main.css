@@ -103,6 +103,7 @@ h1, h3, h4, h5, p {
 
 .hero {
 	padding: 22px 80px 66px 80px;
+	text-align: center;
 }
 
 /*
@@ -242,5 +243,19 @@ a:hover {
 
 a {
 	color: #648880;
+	text-decoration: none;
 }
 
+p a {
+	border-bottom: 1px solid #dfe2e5;
+}
+
+/*
+
+	Navigation
+
+*/
+
+.nav {
+	text-align: right;
+}

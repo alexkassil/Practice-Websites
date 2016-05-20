@@ -223,3 +223,18 @@ strong {
 cite, em {
 	font-style: italic;
 }
+
+/*
+
+	Link
+
+*/
+
+a:hover {
+	color: #a9b2b9;
+}
+
+a {
+	color: #648880;
+}
+

@@ -107,6 +107,14 @@ h1, h3, h4, h5, p {
 	text-align: center;
 }
 
+.hero h2 {
+	font-size: 36px;
+}
+
+.hero h1 {
+	font-size: 24px;
+}
+
 /*
 
 	Clearfix
@@ -231,6 +239,7 @@ h5 {
 	color: #a9b2b9;
 	font-size: 14px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 
 strong {
@@ -258,6 +267,10 @@ a {
 
 p a {
 	border-bottom: 1px solid #dfe2e5;
+}
+
+.teaser a:hover h3 {
+	color: #a9b2b9;
 }
 
 /*

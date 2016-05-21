@@ -141,8 +141,13 @@ cite, em {
 
 .btn {
 	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
 	display: inline-block;
 	margin: 0;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
 }
 
 .btn-alt {

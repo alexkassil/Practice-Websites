@@ -62,4 +62,12 @@ table {
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+	background: #ccc;
+}
+
+.container {
+	margin: 0 auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	width: 960px;
 }

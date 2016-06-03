@@ -94,5 +94,20 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 	border: 1px solid #dfe2e5;
 	padding: 10px 30px;
-	background: #00868b;
+	background-color: #00868b;
+	color: #ccc;
+}
+
+.nav-side h3,
+.nav-side h5 {
+	background-color: inherit;
+}
+
+.nav li{
+	display: inline;
+	padding-right: 5px;
+}
+
+.nav li:last-child {
+	padding-right: 0;
 }

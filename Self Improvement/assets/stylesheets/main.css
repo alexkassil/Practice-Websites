@@ -74,6 +74,27 @@ table {
 
 /*
 
+	Clearfix
+
+*/
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	clear: both;
+	*zoom: 1;
+}
+
+/*
+
 	Typography
 
 */
@@ -96,6 +117,7 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 10px 30px;
 	background-color: #00868b;
 	color: #ccc;
+	float: right;
 }
 
 .nav-side h3,
